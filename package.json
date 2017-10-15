@@ -1,0 +1,60 @@
+{
+    "name": "mc",
+    "description": "Official theme for miguel costero's website.",
+    "version": "1.0.0",
+    "engines": {
+        "ghost": ">=1.2.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Miguel Costero",
+        "email": "miguel3490@gmail.com",
+        "url": "https://miguelcostero.com.ve"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Portfolio"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "miguel",
+        "costero"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/miguelcostero/mc-theme.git"
+    },
+    "bugs": "https://github.com/miguelcostero/mc-theme/issues",
+    "contributors": [
+        {
+            "name": "Miguel Costero",
+            "email": "miguel3490@gmail.com",
+            "url": "https://miguelcostero.com.ve"
+        }
+    ],
+    "devDependencies": {
+        "autoprefixer": "6.3.6",
+        "cssnano": "3.7.1",
+        "gulp": "3.9.1",
+        "gulp-livereload": "3.8.1",
+        "gulp-nodemon": "2.1.0",
+        "gulp-postcss": "6.1.1",
+        "gulp-sourcemaps": "1.6.0",
+        "gulp-util": "3.0.7",
+        "gulp-watch": "4.3.8",
+        "postcss-color-function": "2.0.1",
+        "postcss-custom-properties": "5.0.1",
+        "postcss-easy-import": "1.0.1"
+    },
+    "config": {
+        "posts_per_page": 25
+    }
+}
